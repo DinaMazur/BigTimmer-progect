@@ -1,0 +1,2 @@
+!function(e){let t=document.querySelector(".timmer");function u(){let u=e-new Date().getTime();if(u<=0){t.innerHTML="Час вийшов!",clearInterval(n);return}let r=Math.floor(u/864e5),l=Math.floor(u%864e5/36e5),o=Math.floor(u%36e5/6e4),a=Math.floor(u%6e4/1e3);t.innerHTML=`${r} \u{434}\u{43D} ${l} \u{433}\u{43E}\u{434} ${o} \u{445}\u{432} ${a} \u{441}\u{435}\u{43A}`}u();let n=setInterval(u,1e3)}(new Date("Jun 14, 2025").getTime());
+//# sourceMappingURL=BigTimmer-progect.0b4c5e2f.js.map
