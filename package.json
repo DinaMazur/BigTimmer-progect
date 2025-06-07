@@ -1,0 +1,30 @@
+{
+  "name": "bigtimmer-progect",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /BigTimmer-progect/",
+    "deploy": "gh-pages -d dist ",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaMazur/BigTimmer-progect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaMazur/BigTimmer-progect/issues"
+  },
+  "homepage": "https://dinamazur.github.io/BigTimmer-progect/",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.15.2"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  }
+}
